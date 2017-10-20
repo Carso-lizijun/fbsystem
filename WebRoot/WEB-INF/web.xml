@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>cn.com.fbsystem.user.web.servlet.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PlayerServlet</servlet-name>
+    <servlet-class>cn.com.fbsystem.fbp.web.servlet.PlayerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PlayerServletFindAll</servlet-name>
+    <servlet-class>cn.com.fbsystem.fbp.web.servlet.PlayerServletFindAll</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindByCountryServlet</servlet-name>
+    <servlet-class>cn.com.fbsystem.fbp.web.servlet.FindByCountryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindByClubServlet</servlet-name>
+    <servlet-class>cn.com.fbsystem.fbp.web.servlet.FindByClubServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindByNameServlet</servlet-name>
+    <servlet-class>cn.com.fbsystem.fbp.web.servlet.FindByNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserRegistServlet</servlet-name>
+    <servlet-class>cn.com.fbsystem.user.web.servlet.UserRegistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowAllGameNews</servlet-name>
+    <servlet-class>cn.com.fbsystem.fbnews.web.servlet.ShowAllGameNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadGussingInfo</servlet-name>
+    <servlet-class>cn.com.fbsystem.ubg.web.servlet.UploadGussingInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminAddPlayerServlet</servlet-name>
+    <servlet-class>cn.com.fbsystem.fbp.web.servlet.administrator.AdminAddPlayerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminNews</servlet-name>
+    <servlet-class>cn.com.fbsystem.fbnews.web.servlet.adminnews.AdminNews</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern>/UserLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PlayerServlet</servlet-name>
+    <url-pattern>/PlayerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PlayerServletFindAll</servlet-name>
+    <url-pattern>/PlayerServletFindAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindByCountryServlet</servlet-name>
+    <url-pattern>/FindByCountryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindByClubServlet</servlet-name>
+    <url-pattern>/FindByClubServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindByNameServlet</servlet-name>
+    <url-pattern>/FindByNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegistServlet</servlet-name>
+    <url-pattern>/UserRegistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowAllGameNews</servlet-name>
+    <url-pattern>/ShowAllGameNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadGussingInfo</servlet-name>
+    <url-pattern>/UploadGussingInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminAddPlayerServlet</servlet-name>
+    <url-pattern>/AdminAddPlayerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminNews</servlet-name>
+    <url-pattern>/AdminNews</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
